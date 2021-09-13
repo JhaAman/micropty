@@ -19,6 +19,8 @@ function createWindow() {
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
+    titleBarStyle: "hidden",
+    backgroundColor: "#000000",
     // Node integration is required to run node-pty in the renderer process
     webPreferences: {
       nodeIntegration: true,
