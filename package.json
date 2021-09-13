@@ -1,0 +1,15 @@
+{
+  "name": "micropty",
+  "version": "1.0.0",
+  "description": "A minimal node-pty Electron example",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron . --ignore-gpu-blacklist"
+  },
+  "author": "Aman",
+  "dependencies": {
+    "electron": "^9.1.0",
+    "node-pty": "^0.9.0",
+    "xterm": "4.2.0"
+  }
+}
